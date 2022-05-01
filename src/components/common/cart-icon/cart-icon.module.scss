@@ -1,0 +1,17 @@
+.cartContainer {
+  position: relative;
+  cursor: pointer;
+
+  .cartImg {
+  }
+
+  .cartCount {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+  }
+}

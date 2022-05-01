@@ -1,0 +1,29 @@
+.mainSectionContainer {
+  width: 70%;
+  margin: 3rem auto;
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    p {
+      font-size: 0.933rem;
+      line-height: 1.5;
+    }
+  }
+
+  .mainSectionMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+    }
+  }
+
+  .mainImage {
+  }
+}
